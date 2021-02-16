@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="0.024099">
+    <testcase classname="Login feature" name="Add new customer" time="0.024099">
+        <failure message="java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)&quot; because &quot;this.driver&quot; is null&#13;&#10;&#9;at StepDefinitions.OrangeCRMSteps.click_on_New_Customer(OrangeCRMSteps.java:57)&#13;&#10;&#9;at ✽.click on New Customer(file:/C:/Users/nitip/OneDrive/Desktop/Selenium/Guru99/src/main/java/Features/login.feature:13)&#13;&#10;"><![CDATA[Given click on New Customer.................................................failed
+Then click on customer name.................................................skipped
+Then click on gender........................................................skipped
+Then click on date of birth.................................................skipped
+Then click on address.......................................................skipped
+Then click on city page.....................................................skipped
+Then click on state page....................................................skipped
+Then click on PIN page......................................................skipped
+Then click on telephone number..............................................skipped
+Then click on Email.........................................................skipped
+Then click on submit........................................................skipped
+Then validate the outcomes2.................................................skipped
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+	at StepDefinitions.OrangeCRMSteps.click_on_New_Customer(OrangeCRMSteps.java:57)
+	at ✽.click on New Customer(file:/C:/Users/nitip/OneDrive/Desktop/Selenium/Guru99/src/main/java/Features/login.feature:13)
+]]></failure>
+    </testcase>
+</testsuite>

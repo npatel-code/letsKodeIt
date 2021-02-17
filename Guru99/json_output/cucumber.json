@@ -3,7 +3,53 @@
     "line": 1,
     "elements": [
       {
-        "line": 12,
+        "line": 2,
+        "name": "Login scenario",
+        "description": "",
+        "id": "login-feature;login-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8336963600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Guru demo page",
+            "match": {
+              "location": "OrangeCRMSteps.guru_demo_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5768792700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Click on Bank Project",
+            "match": {
+              "location": "OrangeCRMSteps.click_on_Bank_Project()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 695580300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Close the Webpage",
+            "match": {
+              "location": "OrangeCRMSteps.close_the_Webpage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 7,
         "name": "Add new customer",
         "description": "",
         "id": "login-feature;add-new-customer",
@@ -12,23 +58,22 @@
         "steps": [
           {
             "result": {
-              "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null\r\n\tat StepDefinitions.OrangeCRMSteps.click_on_New_Customer(OrangeCRMSteps.java:57)\r\n\tat ✽.click on New Customer(file:/C:/Users/nitip/OneDrive/Desktop/Selenium/Guru99/src/main/java/Features/login.feature:13)\r\n",
-              "duration": 18412600,
-              "status": "failed"
+              "duration": 7018429100,
+              "status": "passed"
             },
-            "line": 13,
-            "name": "click on New Customer",
+            "line": 8,
+            "name": "Guru demo pageTwo",
             "match": {
-              "location": "OrangeCRMSteps.click_on_New_Customer()"
+              "location": "OrangeCRMSteps.guru_demo_pageTwo()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 29500,
-              "status": "skipped"
+              "duration": 6817203500,
+              "status": "passed"
             },
-            "line": 14,
+            "line": 9,
             "name": "click on customer name",
             "match": {
               "location": "OrangeCRMSteps.click_on_customer_name()"
@@ -37,128 +82,15 @@
           },
           {
             "result": {
-              "duration": 13200,
-              "status": "skipped"
+              "duration": 503434400,
+              "status": "passed"
             },
-            "line": 15,
-            "name": "click on gender",
+            "line": 10,
+            "name": "Close the WebpageTwo",
             "match": {
-              "location": "OrangeCRMSteps.click_on_gender()"
+              "location": "OrangeCRMSteps.close_the_WebpageTwo()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 10200,
-              "status": "skipped"
-            },
-            "line": 16,
-            "name": "click on date of birth",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_date_of_birth()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4900,
-              "status": "skipped"
-            },
-            "line": 17,
-            "name": "click on address",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_address()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 5500,
-              "status": "skipped"
-            },
-            "line": 18,
-            "name": "click on city page",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_city_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6300,
-              "status": "skipped"
-            },
-            "line": 19,
-            "name": "click on state page",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_state_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6200,
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "click on PIN page",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_PIN_page()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6300,
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "click on telephone number",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_telephone_number()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 6000,
-              "status": "skipped"
-            },
-            "line": 22,
-            "name": "click on Email",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_Email()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8800,
-              "status": "skipped"
-            },
-            "line": 23,
-            "name": "click on submit",
-            "match": {
-              "location": "OrangeCRMSteps.click_on_submit()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 8400,
-              "status": "skipped"
-            },
-            "line": 24,
-            "name": "validate the outcomes2",
-            "match": {
-              "location": "OrangeCRMSteps.validate_the_outcomes2()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@TC2"
           }
         ]
       }
@@ -167,7 +99,7 @@
     "description": "",
     "id": "login-feature",
     "keyword": "Feature",
-    "uri": "file:/C:/Users/nitip/OneDrive/Desktop/Selenium/Guru99/src/main/java/Features/login.feature",
+    "uri": "file:/C:/Users/PC%20User1/Documents/DevOps/NPAutomationTest/letsKodeIt/Guru99/src/main/java/Features/Login.feature",
     "tags": []
   }
 ]

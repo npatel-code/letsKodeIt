@@ -1,29 +1,58 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/C:/Users/nitip/OneDrive/Desktop/Selenium/Guru99/src/main/java/Features/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:/C:/Users/PC%20User1/Documents/DevOps/NPAutomationTest/letsKodeIt/Guru99/src/main/java/Features/Login.feature");
 formatter.feature({
   "name": "Login feature",
   "description": "",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "name": "Add new customer",
+  "name": "Login scenario",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@TC2"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
-  "name": "click on New Customer",
+  "name": "Guru demo page",
   "keyword": "Given "
 });
 formatter.match({
-  "location": "OrangeCRMSteps.click_on_New_Customer()"
+  "location": "OrangeCRMSteps.guru_demo_page()"
 });
 formatter.result({
-  "error_message": "java.lang.NullPointerException: Cannot invoke \"org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)\" because \"this.driver\" is null\r\n\tat StepDefinitions.OrangeCRMSteps.click_on_New_Customer(OrangeCRMSteps.java:57)\r\n\tat ✽.click on New Customer(file:/C:/Users/nitip/OneDrive/Desktop/Selenium/Guru99/src/main/java/Features/login.feature:13)\r\n",
-  "status": "failed"
+  "status": "passed"
+});
+formatter.step({
+  "name": "Click on Bank Project",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "OrangeCRMSteps.click_on_Bank_Project()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "Close the Webpage",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "OrangeCRMSteps.close_the_Webpage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "Add new customer",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "Guru demo pageTwo",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "OrangeCRMSteps.guru_demo_pageTwo()"
+});
+formatter.result({
+  "status": "passed"
 });
 formatter.step({
   "name": "click on customer name",
@@ -33,106 +62,16 @@ formatter.match({
   "location": "OrangeCRMSteps.click_on_customer_name()"
 });
 formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 formatter.step({
-  "name": "click on gender",
+  "name": "Close the WebpageTwo",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "OrangeCRMSteps.click_on_gender()"
+  "location": "OrangeCRMSteps.close_the_WebpageTwo()"
 });
 formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on date of birth",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_date_of_birth()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on address",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_address()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on city page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_city_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on state page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_state_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on PIN page",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_PIN_page()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on telephone number",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_telephone_number()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on Email",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_Email()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "click on submit",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.click_on_submit()"
-});
-formatter.result({
-  "status": "skipped"
-});
-formatter.step({
-  "name": "validate the outcomes2",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "OrangeCRMSteps.validate_the_outcomes2()"
-});
-formatter.result({
-  "status": "skipped"
+  "status": "passed"
 });
 });
